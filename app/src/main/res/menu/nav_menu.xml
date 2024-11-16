@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/qlsp"
+        android:title="Quản lý sản phẩm"
+        />
+    <item
+        android:id="@+id/qlnv"
+        android:title="Quản lý nhân viên"
+        />
+    <item
+       android:id="@+id/gt"
+        android:title="Giới thiệu"
+        />
+
+    <group android:checkableBehavior="single">
+        <item android:title="Khác">
+            <menu>
+                <item
+                    android:id="@+id/signout"
+                    android:title="Đăng xuất"
+                    />
+                <item
+                    android:id="@+id/exit"
+                    android:title="Thoát"
+                    />
+            </menu>
+        </item>
+    </group>
+</menu>

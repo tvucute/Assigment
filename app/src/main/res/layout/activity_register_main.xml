@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginScreen.RegisterMain"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        >
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:src="@drawable/fpt"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/edtreuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter user"
+            android:textSize="20sp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/design_editext"
+            />
+
+        <EditText
+            android:id="@+id/edtrepassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"
+            android:textSize="20sp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/design_editext"
+            />
+
+        <EditText
+            android:id="@+id/edtconfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter confirm password"
+            android:textSize="20sp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/design_editext"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnregis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@drawable/design_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        />
+    <Button
+        android:id="@+id/btnrecancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/design_button"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+
+</LinearLayout>
